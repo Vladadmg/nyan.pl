@@ -1,0 +1,927 @@
+﻿﻿﻿<!DOCTYPE HTML>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head> 
+<title>Nyanyan - Otaku do Ataku!</title>
+<link href="/templates/style.css?v=1.009"  rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="Description" content="Jedyny polskojęzyczny serwis obrazkowy przeznaczony dla fanów mangi, anime i kultury azjatyckiej. Użytkownicy mogą zamieszczać grafiki związane z tematyką strony, głosować na nie, komentować." />
+<meta name="keywords" content="" />
+<base href="http://nyanyan.pl/index.php" />
+
+<meta property="fb:app_id" content="366278673390846"/>
+<meta name="verify-admitad" content="e7165357e7" />
+<script type="text/javascript" src="http://nyanyan.pl/jquery/js/jquery-1.7.1.min.js"></script>
+<link type="text/css" href="http://nyanyan.pl/jquery/css/redmond/jquery-ui-1.8.18.custom.css" rel="Stylesheet" />	
+<link type="text/css" href="http://nyanyan.pl/jquery/css/screen.css" rel="Stylesheet" />	
+<script type="text/javascript" src="http://nyanyan.pl/jquery/js/jquery-ui-1.8.18.custom.min.js"></script>
+<script type="text/javascript" src="http://nyanyan.pl/jquery/js/easySlider1.5.js"></script>
+<!-- verify-admitad: "e7165357e7" -->
+<script>
+	
+	
+	function pokaz(id) {
+		
+		if ($("#obrazek_"+id).hasClass('stop')) {
+			
+			$("#obrazek_"+id).removeClass('stop').removeClass('stop16').removeClass('stop2').removeClass('stop4').removeClass('stop8').removeClass('stopsp').blur();
+			
+			$("#obrazek_"+id).hide();
+			$("#obr_"+id).css('visibility','visible').hide();
+			$("#obr_"+id).show();
+			$("#obrazek_"+id).show();
+			
+			//alert(id);
+			return false;
+			
+		}
+		else
+		{
+			return true;
+		}
+	}
+	
+	
+</script>
+
+<link rel="image_src" href="/templates/img/kot.gif" />
+<meta property="og:image" content="http://nyanyan.pl/templates/img/kot.gif">
+<meta property="og:title" content="Nyanyan - Otaku do Ataku!">
+<meta property="og:description" content=""Jedyny polskojęzyczny serwis obrazkowy przeznaczony dla fanów mangi, anime i kultury azjatyckiej. Użytkownicy mogą zamieszczać grafiki związane z tematyką strony, głosować na nie, komentować.">
+<meta property="og:url" content="http://nyanyan.pl/tag.php?tag=kitsune">
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-19832674-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ 	
+	<!-- (C) 2000-2009 Gemius SA - gemiusAudience / ver 11.1 / pp.mangowe.pl / podstrony-->
+	<script type="text/javascript">
+	 <!--//--><![CDATA[//><!--
+	var pp_gemius_identifier ='badAq87E67wdMsx9UW.JF8d.P1IYgsednR_QWwPN_mf.w7';
+	//--><!]]>
+	</script>
+	<script type="text/javascript" src="http://arbo.hit.gemius.pl/xgemius.js"></script>
+  	
+  
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '366278673390846', // App ID
+      channelUrl : '//nyanyan.mangowe.pl/chanel.php', // Channel File
+      status     : true, // check login status
+      cookie     : true, // enable cookies to allow the server to access the session
+      xfbml      : true  // parse XFBML
+    });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     ref.parentNode.insertBefore(js, ref);
+   }(document));
+
+</script>
+	<!--  -->
+	<!-- div id="naglowek_reklama"></div -->
+	<!--  -->
+	<div id="naglowek_kot">
+	<div style="margin-bottom:-25px;text-align:center"> 
+  	<!-- BBelements AdServer one2many Position: go.arbopl.bbelements.com nyanyan.mangowe.pl(5383) / pozostale podstrony(2) / billboard(1) / billboard 750x100 750x100(30)-->
+	<!-- HowTo: Place this code into the html page there the ad should appear. -->
+	<div id='bmone2n-5383.2.1.30'></div>
+  	
+</div>
+	<div id="naglowek_kot_in">
+			<div class="slogan">Otaku do ataku! <img src="http://nyanyan.pl/templates/img/ogon.png" height="20px" /></div>
+			<div id="kot"><img src="/templates/img/kot.gif" title="Otaku do ataku!" alt="Otaku do ataku!" class="kot" /></div>
+			
+	</div></div>
+	<div style="clear:both"></div>
+	<div id="menu_top_a">
+		<div class="inside">
+			<div style="float:right">
+									<a href="/dodaj.php">Dodaj</a>
+					<a href="/rejestracja.php"  >Rejestracja</a>
+					<a href="/login.php" >Loguj</a>
+							</div>                         
+			<a href="/"  title="Strona Główna - Wybrane Obrazki">Główna</a>
+			<a href="/poczekalnia.php"  title="Poczekalnia - Wszystkie Obrazki">Poczekalnia</a>
+			<a href="/top7.php"  title="Najpopularniejsze Obrazki - ostatnie 7 dni">Top'7</a>
+			<a href="/top30.php"  title="Najpopularniejsze Obrazki - ostatnie 30 dni">Top'30</a>
+			<a href="/losuj.php">Losuj</a>
+					</div>
+	</div>
+	<div id="menu_top_b"> 
+		<div class="inside">
+			<div style="float:right">
+				<a href="http://radioaoi.pl">Radio Aoi</a>
+				<a href="http://mangowe.pl">Mangowe.pl</a>
+			
+					<a href="/?styl=ciemny">Styl Ciemny</a>
+
+			</div>
+							<a href="/?jezyk=en"><img src="/templates/img/en.png" alt="EN" /></a>
+						<a href="/kontakt.php"  >Kontakt</a>
+			<!-- a href="/forum">FORUM</a -->
+			<!-- a href="https://play.google.com/store/apps/details?id=pl.mangowe.nyanyan"><img src="http://nyanyan.pl/templates/img/nyandroid.png" alt="NYANdroid" style="vertical-align:bottom" /> NYANdroid</a ->
+			<!-- a href="/bransoletki.php"  >Nyansoletki!</a --> 
+			<a href="faq.php">FAQ</a>
+		</div>
+	</div>
+
+
+	<div class="inside">
+		
+		
+		<div id="prawa">
+	<div class="ramka_prawa" style="font-size:14px;text-align:center">
+		<form action="szukaj.php" method="get">
+		<input type="text" name="tag" value="kitsune" /> <input type="submit" value="szukaj" />
+		</form>
+	</div>
+	
+	<div class="ramka_prawa" style="margin-top:20px;">
+		<iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FNyanyanit&amp;width=240&amp;height=350&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23fff&amp;stream=false&amp;header=false&amp;appId=288568487882502" style="border:none; overflow:hidden; width:240px; height:350px;"></iframe>
+	</div>
+	 
+	<div class="ramka_prawa" style="margin-top:20px;font-size:14px; ">
+			<div style="text-align:center;font-weight:bold">TOP Główna
+				<div style="font-size:10px;font-weight:normal">z ostatnich 30 dni</div>
+			</div>
+			<table style="font-size:12px;margin:10px;width:100%">
+						<tr>
+				<td style="width:20px">1.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=hunter562">hunter562</a></td>
+				<td>82</td>
+			</tr>
+						<tr>
+				<td style="width:20px">2.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=mekuri">mekuri</a></td>
+				<td>76</td>
+			</tr>
+						<tr>
+				<td style="width:20px">3.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=mei-chan">mei-chan</a></td>
+				<td>53</td>
+			</tr>
+						<tr>
+				<td style="width:20px">4.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Inkachan">Inkachan</a></td>
+				<td>38</td>
+			</tr>
+						<tr>
+				<td style="width:20px">5.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=shinra">shinra</a></td>
+				<td>35</td>
+			</tr>
+						<tr>
+				<td style="width:20px">6.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Litsuru">Litsuru</a></td>
+				<td>33</td>
+			</tr>
+						<tr>
+				<td style="width:20px">7.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Yokai">Yokai</a></td>
+				<td>33</td>
+			</tr>
+						<tr>
+				<td style="width:20px">8.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=KissOfDeath">KissOfDeath</a></td>
+				<td>31</td>
+			</tr>
+						<tr>
+				<td style="width:20px">9.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Gosia">Gosia</a></td>
+				<td>29</td>
+			</tr>
+						<tr>
+				<td style="width:20px">10.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Nanamcia">Nanamcia</a></td>
+				<td>28</td>
+			</tr>
+						</table>
+			
+	</div>
+	
+	<div class="ramka_prawa" style="margin-top:20px;font-size:14px; ">
+			<div style="text-align:center;font-weight:bold">TOP Dodawacze
+				<div style="font-size:10px;font-weight:normal">z ostatnich 30 dni</div>
+			</div>
+			<table style="font-size:12px;margin:10px;width:100%">
+						<tr>
+				<td  style="width:20px">1.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=hunter562">hunter562</a></td>
+				<td>154</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">2.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=shu">shu</a></td>
+				<td>151</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">3.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Wera%20Hatake">Wera Hatake</a></td>
+				<td>150</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">4.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=shi44">shi44</a></td>
+				<td>150</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">5.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=shinra">shinra</a></td>
+				<td>150</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">6.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=mei-chan">mei-chan</a></td>
+				<td>141</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">7.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=LiLa2010">LiLa2010</a></td>
+				<td>139</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">8.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Nanamcia">Nanamcia</a></td>
+				<td>134</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">9.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Yokai">Yokai</a></td>
+				<td>127</td>
+			</tr>
+						<tr>
+				<td  style="width:20px">10.</td>
+				<td><a href="http://nyanyan.mangowe.pl/usr.php?usr=Temashika">Temashika</a></td>
+				<td>122</td>
+			</tr>
+						</table>
+			
+	</div>
+	
+	
+	
+	<div class="ramka_prawa" style="text-align:center; font-size:12px; margin-top:20px; position:relative">
+		<div style="position:absolute; top:10px; right:10px" ><a href="http://mangowe.pl" target="_blank"><img src="/templates/img/mangowe.png" alt="Mangowe.pl"></a></div>
+		<a href="http://mangowe.pl" target="_blank">Mangowe.pl</a><br />
+		<a href="http://liryki.mangowe.pl/" target="_blank">Liryki Mangowe</a><br />
+		<a href="http://wydawnictwa.mangowe.pl/" target="_blank">Wydawnictwa Mangowe</a><br />
+		<a href="http://przepisy.mangowe.pl/" target="_blank">Przepisy Mangowe</a><br />
+		<a href="http://ogloszenia.mangowe.pl/" target="_blank">Ogłoszenia Mangowe</a><br />
+		<a href="http://spotkania.mangowe.pl/" target="_blank">Spotkania Mangowe</a><br />
+		<a href="http://zapytania.mangowe.pl/" target="_blank">Zapytania Mangowe</a><br />
+		<a href="http://kompendium.mangowe.pl/" target="_blank">Kompendium Mangowe</a><br />
+		
+		<a href="http://fanfiki.mangowe.pl/" target="_blank">Fanfiki Mangowe</a><br />
+		<a href="http://konwenty.mangowe.pl/" target="_blank">Konwenty Mangowe</a><br />
+		<a href="http://kmusic.mangowe.pl/" target="_blank">kmusic Mangowe</a><br />
+		
+		<a href="http://radioaoi.pl/" target="_blank">Radio Aoi</a><br /> 
+		<a href="http://aoitv.mangowe.pl/" target="_blank">Aoi TV</a><br />
+		<br />
+		<!-- div class="fb-like" data-href="http://www.facebook.com/mangowe" data-send="false" data-layout="box_count" data-width="200" data-show-faces="false" style="margin-left:90px" id="stoj"></div -->
+	</div>
+	
+	<iframe src="/mobi/radiostat/stat_duzy_okragly.html" scrolling="no" style="margin-left:50px; width:160px; margin-top: 20px; height:230px;overflow:hidden; border:none" name="Statystyki radia" seamless="seamless"></iframe>
+	
+	
+	
+	<div style="width:160px; margin:auto; margin-top: 20px;">
+	
+		<!-- BBelements AdServer one2many Position: go.arbopl.bbelements.com nyanyan.mangowe.pl(5383) / pozostale podstrony(2) / skyscraper(1) / skyscraper_pl 160x600 160x600(31)-->
+		<!-- HowTo: Place this code into the html page there the ad should appear. -->
+		<div id='bmone2n-5383.2.1.31'></div>
+	
+	
+</div>
+
+
+	<div id="slider">
+		<ul>				
+			<li><a href="http://a-g-w.info/"><img src="/banners/agw.png" alt="A-G-W" /></a></li><li><a href="http://diff-anime.pl"><img src="/banners/diff.png" alt="Diff" /></a></li><li><a href="http://jpf.com.pl"><img src="/banners/jpf.png" alt="JPF" /></a></li><li><a href="http://waneko.pl/"><img src="/banners/waneko.png" alt="Waneko" /></a></li><li><a href="https://www.facebook.com/4channnnn"><img src="/banners/4chan.jpg" alt="4channnnn" /></a></li><li><a href="http://kotori.pl"><img src="/banners/kotori.png" alt="Kotori" /></a></li>		</ul>
+	</div>
+	
+	<div class="ramka_prawa" style="padding: 10px; margin-top: 20px">
+		 <span style='font-size: 13px'><a href="tag.php?tag=akatsuki">akatsuki</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=ameryka">ameryka</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=amv">amv</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=anglia">anglia</a></span> |   <span style='font-size: 16px'><a href="tag.php?tag=anime">anime</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=another">another</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=ao no exorcist">ao no exorcist</a></span> |   <span style='font-size: 15px'><a href="tag.php?tag=aph">aph</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=big bang">big bang</a></span> |   <span style='font-size: 15px'><a href="tag.php?tag=black and white">black and white</a></span> |   <span style='font-size: 22px'><a href="tag.php?tag=bleach">bleach</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=ciel">ciel</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=code geass">code geass</a></span> |   <span style='font-size: 17px'><a href="tag.php?tag=cosplay">cosplay</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=d.gray-man">d.gray-man</a></span> |   <span style='font-size: 15px'><a href="tag.php?tag=death note">death note</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=deidara">deidara</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=dragon ball">dragon ball</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=drrr">drrr</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=durarara">durarara</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=durarara!!">durarara!!</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=ed">ed</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=edward elric">edward elric</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=erza">erza</a></span> |   <span style='font-size: 17px'><a href="tag.php?tag=fairy tail">fairy tail</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=fma">fma</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=fullmetal alchemist">fullmetal alchemist</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=gaara">gaara</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=gif">gif</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=gintama">gintama</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=girl">girl</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=gray">gray</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=grell">grell</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=hatsune">hatsune</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=hatsune miku">hatsune miku</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=hellsing">hellsing</a></span> |   <span style='font-size: 19px'><a href="tag.php?tag=hetalia">hetalia</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=hinata">hinata</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=hunterxhunter">hunterxhunter</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=ichigo">ichigo</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=itachi">itachi</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=izaya">izaya</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=j-rock">j-rock</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=japan">japan</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=japonia">japonia</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=k-on">k-on</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=k-pop">k-pop</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=kakashi">kakashi</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=katekyo hitman reborn">katekyo hitman reborn</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=kawaii">kawaii</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=khr">khr</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=kpop">kpop</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=kuroko">kuroko</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=kuroko no basket">kuroko no basket</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=kuroko no basuke">kuroko no basuke</a></span> |   <span style='font-size: 18px'><a href="tag.php?tag=kuroshitsuji">kuroshitsuji</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=l">l</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=lucy">lucy</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=luffy">luffy</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=manga">manga</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=miku">miku</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=miku hatsune">miku hatsune</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=minato">minato</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=mirai nikki">mirai nikki</a></span> |   <span style='font-size: 30px'><a href="tag.php?tag=naruto">naruto</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=naruto shippuuden">naruto shippuuden</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=naruto uzumaki">naruto uzumaki</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=natsu">natsu</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=neko">neko</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=nezumi">nezumi</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=no.6">no.6</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=nyan">nyan</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=one piece">one piece</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=otaku">otaku</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=pandora hearts">pandora hearts</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=pikachu">pikachu</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=pixiv">pixiv</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=pokemon">pokemon</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=polska">polska</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=prusy">prusy</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=rin">rin</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=rukia">rukia</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=sakura">sakura</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=sao">sao</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=sasori">sasori</a></span> |   <span style='font-size: 16px'><a href="tag.php?tag=sasuke">sasuke</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=sebastian">sebastian</a></span> |   <span style='font-size: 14px'><a href="tag.php?tag=shinee">shinee</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=shion">shion</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=shizuo">shizuo</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=soul eater">soul eater</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=super junior">super junior</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=sword art online">sword art online</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=taemin">taemin</a></span> |   <span style='font-size: 13px'><a href="tag.php?tag=the gazette">the gazette</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=touhou">touhou</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=uchiha">uchiha</a></span> |   <span style='font-size: 17px'><a href="tag.php?tag=vocaloid">vocaloid</a></span> |   <span style='font-size: 15px'><a href="tag.php?tag=yaoi">yaoi</a></span> |   <span style='font-size: 12px'><a href="tag.php?tag=yuri">yuri</a></span> |  
+	</div>
+	  
+</div>
+
+
+		
+		
+		 		
+
+
+	
+
+			    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?119181">Kitsune - Spotkanie inauguracyjne</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:50px"><img src="http://nyanyan.pl/templates//img/nyan.gif" title="Główna" alt="Główna" /></div>
+				<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_119181"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 500 700 -->
+	<div id="obrazek_119181"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?119181"><img src="http://nyanyan.pl/upload/119181_8zd03gqvumpxhye6bkwtiso17fla5n24j9rc.jpg" class="obrazek "  id="obr_119181" title="" alt="" /></a>
+			</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.pl/obrazek.php?119181"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.pl/obrazek.php?119181&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=Abdizriel">Abdizriel</a></div>
+				<div style="overflow: hidden;">Żródło: http://kitsune.com.pl/</div>				<div>Tagi: <a href="tag.php?tag=japonia">japonia</a> | <a href="tag.php?tag=kitsune">kitsune</a> | <a href="tag.php?tag=spotkanie">spotkanie</a> | <a href="tag.php?tag=stowarzyszenie">stowarzyszenie</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?119177">Kitsune - Spotkanei inauguracyjne</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_119177"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 500 700 -->
+	<div id="obrazek_119177"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?119177"><img src="http://nyanyan.pl/upload/119177_q10pgld5uwf4bev8mh7iy2xor9z3acnj6skt.jpg" class="obrazek lazy"  id="obr_119177" title="" alt="" /></a>
+			</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.pl/obrazek.php?119177"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.pl/obrazek.php?119177&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=Abdizriel">Abdizriel</a></div>
+				<div style="overflow: hidden;">Żródło: http://kitsune.com.pl/</div>				<div>Tagi: <a href="tag.php?tag=japonia">japonia</a> | <a href="tag.php?tag=kitsune">kitsune</a> | <a href="tag.php?tag=spotkanie">spotkanie</a> | <a href="tag.php?tag=stowarzyszenie">stowarzyszenie</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?113882">Jaki jest wasz ulubiony youkai? (jeśli nie został wymieniony poniżej to napiszcie w komentarzach)</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_113882"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 650 545 -->
+	<div id="obrazek_113882"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?113882"><img src="http://nyanyan.pl/upload/113882_mstj6zefy4nw2xlh8q0a1cbk3vpgd597ouri.jpg" class="obrazek lazy"  id="obr_113882" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?113882"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?113882&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+									<div><br /><br /><strong>A jak wy uważacie?</strong></div>
+					<table style="width:600px; padding-left:100px">
+						<tr>
+						
+						<td style="text-align:left;padding:10px">Kappa<br /><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnyanyan.pl%2Fobrazek.php%3F113882%26amp%3Bodp%3D1&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;font&amp;height=21&amp;appId=366278673390846" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></div></td>						<td style="text-align:left;padding:10px">Kitsune<br /><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnyanyan.pl%2Fobrazek.php%3F113882%26amp%3Bodp%3D2&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;font&amp;height=21&amp;appId=366278673390846" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></div></td>						<td style="text-align:left;padding:10px">Ryu<br /><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnyanyan.pl%2Fobrazek.php%3F113882%26amp%3Bodp%3D3&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;font&amp;height=21&amp;appId=366278673390846" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></div></td>						<td style="text-align:left;padding:10px">Tengu<br /><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnyanyan.pl%2Fobrazek.php%3F113882%26amp%3Bodp%3D4&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;action=like&amp;font&amp;height=21&amp;appId=366278673390846" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe></div></td>						
+						</tr>
+					</table><br />
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=Nichirin">Nichirin</a></div>
+				<div style="overflow: hidden;">Żródło: internet</div>				<div>Tagi: <a href="tag.php?tag=kappa">kappa</a> | <a href="tag.php?tag=kitsune">kitsune</a> | <a href="tag.php?tag=ryu">ryu</a> | <a href="tag.php?tag=smok">smok</a> | <a href="tag.php?tag=tengu+">tengu </a> | <a href="tag.php?tag=youkai">youkai</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?110685">Kitsune.</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_110685"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 650 431 -->
+	<div id="obrazek_110685"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?110685"><img src="http://nyanyan.pl/upload/110685_3z1wpk8i0r2dv6gqehlysbucat97nm5foxj4.jpg" class="obrazek lazy"  id="obr_110685" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?110685"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?110685&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=negumi">negumi</a></div>
+				<div style="overflow: hidden;">Żródło: dewiantArt</div>				<div>Tagi: <a href="tag.php?tag=kitsune-onna">kitsune-onna</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?110680">Kitsune</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_110680"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 435 625 -->
+	<div id="obrazek_110680"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?110680"><img src="http://nyanyan.pl/upload/110680_h29w6bpfkonuvlq7t4yjxec0gmrd5si13az8.jpg" class="obrazek lazy"  id="obr_110680" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?110680"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?110680&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=queenVictoria">queenVictoria</a></div>
+				<div style="overflow: hidden;">Żródło: zerochan</div>				<div>Tagi: <a href="tag.php?tag=art">art</a> | <a href="tag.php?tag=kitsune">kitsune</a></div>			</div>
+		</div>
+		<div class="ramka"><br /><br /><br /><br />
+ 
+	  	<!-- BBelements AdServer one2many Position: go.arbopl.bbelements.com nyanyan.mangowe.pl(5383) / pozostale podstrony(2) / rectangl(1) / box 300x250 300x250(36)-->
+		<!-- HowTo: Place this code into the html page there the ad should appear. -->
+		<div id='bmone2n-5383.2.1.36'></div>
+ 
+<br /><br /><br /><br />
+</div>
+		    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?108303">Pokolenia Nurarihyona</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_108303"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 600 208 -->
+	<div id="obrazek_108303"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?108303"><img src="http://nyanyan.pl/upload/108303_cux3jvid9ky08t6lhsbpza4nr5om7q2e1gwf.jpg" class="obrazek lazy"  id="obr_108303" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?108303"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?108303&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=queenVictoria">queenVictoria</a></div>
+				<div style="overflow: hidden;">Żródło: zerochan</div>				<div>Tagi: <a href="tag.php?tag=hagoromo+kitsune">hagoromo kitsune</a> | <a href="tag.php?tag=nurarihyon">nurarihyon</a> | <a href="tag.php?tag=nurarihyon+no+mago">nurarihyon no mago</a> | <a href="tag.php?tag=rikuo">rikuo</a> | <a href="tag.php?tag=yuki+onna">yuki onna</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?106686"></a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_106686"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 500 918 -->
+	<div id="obrazek_106686"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?106686"><img src="http://nyanyan.pl/upload/106686_7y1eupjm5lsw0kv6oitc3r2hb94dn8aqzxfg.jpg" class="obrazek lazy"  id="obr_106686" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?106686"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?106686&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=Jibun-Annie">Jibun-Annie</a></div>
+				<div style="overflow: hidden;">Żródło: forum kyuu.pl</div>				<div>Tagi: <a href="tag.php?tag=ahri">ahri</a> | <a href="tag.php?tag=cosplay">cosplay</a> | <a href="tag.php?tag=kawaii">kawaii</a> | <a href="tag.php?tag=kitsune">kitsune</a> | <a href="tag.php?tag=leagoue+of+legends">leagoue of legends</a> | <a href="tag.php?tag=lol">lol</a> | <a href="tag.php?tag=neko">neko</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?105986">Knock knock..</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:50px"><img src="http://nyanyan.pl/templates//img/nyan.gif" title="Główna" alt="Główna" /></div>
+				<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_105986"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 600 450 -->
+	<div id="obrazek_105986"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?105986"><img src="http://nyanyan.pl/upload/105986_f9kab658t0m43xvhdegi1zq7ylwocusnj2rp.jpg" class="obrazek lazy"  id="obr_105986" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?105986"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?105986&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=queenVictoria">queenVictoria</a></div>
+				<div style="overflow: hidden;">Żródło: zerochan</div>				<div>Tagi: <a href="tag.php?tag=gejsza">gejsza</a> | <a href="tag.php?tag=kitsune">kitsune</a> | <a href="tag.php?tag=wn%C4%99trze">wnętrze</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?105985">Kitsune</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:50px"><img src="http://nyanyan.pl/templates//img/nyan.gif" title="Główna" alt="Główna" /></div>
+				<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_105985"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 600 876 -->
+	<div id="obrazek_105985"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?105985"><img src="http://nyanyan.pl/upload/105985_stwp3b1haq8efnlg4ozmd5y0c6x7r9vikju2.jpg" class="obrazek lazy"  id="obr_105985" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?105985"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?105985&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=queenVictoria">queenVictoria</a></div>
+				<div style="overflow: hidden;">Żródło: zerochan</div>				<div>Tagi: <a href="tag.php?tag=kitsune">kitsune</a></div>			</div>
+		</div>
+				    		<div class="ramka">
+			
+			<div class="tytul"><a href="http://nyanyan.pl/obrazek.php?105937">Osaki Kitsune ♥</a></div>
+								<div style="position:absolute;z-index:10; left:8px; top:15px;" class="pprzez ulubione ukryj" id="pprzez_105937"><img src="http://nyanyan.pl/templates//img/nyan2.gif" title="Ulubione" alt="Ulubione" /></div>
+	 <!--   -->
+	 <!-- 600 873 -->
+	<div id="obrazek_105937"  style="width: px; height:px;margin:auto;position:relative ">
+		<a href="http://nyanyan.pl/obrazek.php?105937"><img src="http://nyanyan.pl/upload/105937_25aogexkih0pm3dyf84lq6ts7zucv19rnjwb.jpg" class="obrazek lazy"  id="obr_105937" title="" alt="" /></a>
+		<div class="zaslon" style="position: absolute; bottom:0px; left:0px; height:25px; width:px"></div>	</div>
+	
+<!-- [ -1 ] -->
+<!-- [  ] -->
+			
+			<div class="podpis" style="text-align:center">
+				<div style="float:left;margin-left:150px;min-height:25px">
+					
+				
+						
+						<div class="addthis_toolbox addthis_default_style "  
+								
+								addthis:url="http://nyanyan.mangowe.pl/obrazek.php?105937"
+								
+						>
+						<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+						<a class="addthis_counter addthis_pill_style"></a>
+						</div>
+					
+					</div>
+
+				<div style="float:right; margin-right:150px;min-height:25px">
+					<iframe src="http://www.facebook.com/plugins/comments.php?href=http://nyanyan.mangowe.pl/obrazek.php?105937&amp;permalink=1" style="border:none; overflow:hidden; width:130px; height:16px;"></iframe>	
+				</div>
+				<img src="/templates/img/kotek.png" alt="Nyanyan"  style="vertical-allign:middle" />
+				<div style="clear:left;padding-bottom:10px"></div>
+				
+				<div style="clear:left"></div>
+								<div style="clear:left"></div>
+				
+				<div>Autor: <a href="/usr.php?usr=negumi">negumi</a></div>
+				<div style="overflow: hidden;">Żródło: tumblr.com</div>				<div>Tagi: <a href="tag.php?tag=hiiro+no+kakera">hiiro no kakera</a> | <a href="tag.php?tag=osaki+kitsune">osaki kitsune</a> | <a href="tag.php?tag=yuuichi+komura">yuuichi komura</a></div>			</div>
+		</div>
+			
+	<div class="stronicowanieD">
+	
+			
+		<a href="/tag.php?tag=kitsune" class="stronicowanie stronicowanieW">1</a>
+		
+	
+	
+			
+		<a href="/tag.php?tag=kitsune&page=1" class="stronicowanie ">2</a>
+		
+	
+</div>
+<script>
+var addthis_config = {
+      ui_language: "pl" 
+} 
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4f69b1bc23fe27a5"></script>																										
+				
+		
+	</div>
+ 
+﻿<div style="clear:both"></div>
+			
+			<!-- BBelements AdServer one2many code -->
+			<!-- HowTo: All the ad codes must be above this code! -->
+			<!-- HowTo: It is good idea to place this code just below the last ad code. -->
+			<script type='text/javascript' charset='utf-8' src='http://go.arbopl.bbelements.com/bb/bb_one2n.js'></script>
+			<script type='text/javascript'>/* <![CDATA[ */ 
+			bmone2n.addPosition('5383.2.1.30','');
+			bmone2n.addPosition('5383.2.1.36','');
+			bmone2n.addPosition('5383.2.1.31','');
+			bmone2n.getAd('go.arbopl.bbelements.com','',''+(typeof(bburlparam)=='string'?'&'+bburlparam:''),'utf-8');
+			/* ]]> */</script>
+			<div id='bmone2t-5383.2.1.30' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('5383.2.1.30'); /* ]]> */</script></div>
+			<div id='bmone2t-5383.2.1.36' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('5383.2.1.36'); /* ]]> */</script></div>
+			<div id='bmone2t-5383.2.1.31' style='display:none'><script type='text/javascript'>/* <![CDATA[ */ bmone2n.makeAd('5383.2.1.31'); /* ]]> */</script></div>
+			<script type='text/javascript'>/* <![CDATA[ */ bmone2n.moveAd(); /* ]]> */</script>
+		
+		
+	
+
+<div id="stopka">
+	<div id="menu_bot">
+		
+		<div class="inside">
+			<div style="float:right; font-size: 12px">
+				&copy; 2011-2012 Nyanyan, Powered by Sgt. Apache  &amp; Borg
+			</div>
+			<a href="/regulamin.php" >Regulamin</a>
+			
+		</div>
+	
+	</div>
+</div>
+<div></div>
+<script>
+
+
+  
+
+
+			$("#slider").easySlider({
+				auto: true,
+				continuous: true,
+				firstShow: false,
+				lastShow: false,
+				prevText: '',
+				nextText: '',
+			});
+		
+		//$(".stop").onselectstart = function() { return false; };
+		//$("img").onselectstart = function() { return false; };
+		//$("img").attr('unselectable', 'on');
+	
+		$(".stop").on("click",function(e) {
+			
+			id=$(this).attr('id').substr(8);
+			
+			if ($("#obrazek_"+id).hasClass('stop')) {
+					
+					e.stopPropagation();
+					e.stopImmediatePropagation();
+					e.preventDefault();
+					
+					
+					
+
+					$("#obrazek_"+id).removeClass('stop').removeClass('stop16').removeClass('stop2').removeClass('stop4').removeClass('stop8').removeClass('stopsp').blur();
+					$("#obrazek_"+id).hide();
+					$("#obr_"+id).css('visibility','visible').hide();
+					$("#obr_"+id).show();
+					$("#obrazek_"+id).show();
+					
+					  if (document.selection)
+						{
+							document.selection.empty();
+							obj.blur();
+						}
+						else
+						{
+							window.getSelection().removeAllRanges();
+						}
+					
+					return false;
+			}
+		});
+		
+				user_id='0';
+				
+		$('.ulubione').click(function (e) {
+			
+			if (user_id==0) alert('By dodać obrazek do ulubionych - musisz być zalogowany.');
+			
+			id=$(this).attr('id');
+			id=id.substr(7);
+			url='include/ajax.php?wyk=zu&idu='+user_id+'&id='+id;
+			//alert(url);
+			$.get(url, function (data) {
+				//alert(id);
+				if (data=='OK') $('#pprzez_'+id).removeClass('pprzez');
+					else $('#pprzez_'+id).addClass('pprzez');
+				
+			} );
+
+		});	
+		
+		$('.ulubione').each(function (index,objekt) {
+			if (user_id==0) return;
+			
+			id=$(this).attr('id');
+			id=id.substr(7);
+			$(this).removeClass('ukryj');
+			//alert(id);
+			url='include/ajax.php?wyk=su&idu='+user_id+'&id='+id;
+			//alert(url);
+			$.get(url, function (data) {
+				//alert(id);
+				if (data>0) {
+					$('#pprzez_'+data).removeClass('pprzez');
+					$('#pprzez_'+data).removeClass('ukryj');
+				}
+				else
+				{				
+					$('#pprzez_'+id.substr(1)).addClass('pprzez');
+					$('#pprzez_'+id.substr(1)).addClass('ukryj');
+				}
+				
+			});
+			
+		});
+			
+
+</script>
+
+<img src='http://meetport.pl/presentation/gfx/1.png.html' width=1 height=1>
+</body>
+</html>
+
